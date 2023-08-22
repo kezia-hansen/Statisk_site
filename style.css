@@ -1,10 +1,20 @@
 .grid_kat {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
+
 
 .kat_box {
     background-color: gray;
     margin: 20px;
     padding: 30px;
+    text-align: center;
+
+}
+
+.kat_box a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
 }
