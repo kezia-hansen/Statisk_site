@@ -1,0 +1,10 @@
+.grid_kat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.kat_box {
+    background-color: gray;
+    margin: 20px;
+    padding: 30px;
+}
