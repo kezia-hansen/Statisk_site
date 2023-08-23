@@ -1,3 +1,8 @@
+/* GENERELT */
+
+/* FORSIDE */
+
+/* KATEGORI */
 .grid_kat {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,3 +23,7 @@
     color: black;
     text-decoration: none;
 }
+
+/* PRODUKT_LISTE */
+
+/* PRODUKT */
