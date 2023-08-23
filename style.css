@@ -1,5 +1,21 @@
 /* GENERELT */
 
+body {
+    margin-left: 5%;
+    padding: 0;
+    background-color: #272727;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    letter-spacing: -0.1rem;
+    line-height: 1;
+}
+
 /* FORSIDE */
 
 /* KATEGORI */
@@ -8,7 +24,6 @@
     grid-template-columns: 1fr 1fr;
 
 }
-
 
 .kat_box {
     background-color: gray;
@@ -22,6 +37,14 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     text-decoration: none;
+}
+
+.kat_box:hover {
+    background-color: black;
+}
+
+.kat_box:hover a {
+    color: white;
 }
 
 /* PRODUKT_LISTE */
