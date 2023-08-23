@@ -3,38 +3,58 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkt</title>
     <link rel="stylesheet" href="style.css">
-    <title>Produktliste</title>
 </head>
 
 <body>
+    <a href="index.html" class="kat_overskrift">
+        <h1>Fashion <span>Я</span>Us</h1>
+    </a>
     <main>
-        <h1>Produktliste</h1>
-        <article>
-            <h2>Leggins</h2>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="leggins">
-            <a href="produkt.html">Læs mere</a>
-        </article>
+        <h2>Vores Produkter</h2>
 
-        <article>
-            <h2>T-shirt</h2>
-            <img src="https://kea-alt-del.dk/t7/images/webp/1000/1533.webp" alt="t-shirt">
-            <a href="produkt.html">Læs mere</a>
-        </article>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1533.webp" alt="t-shirt">
+                <h3>Cat Red T-shirt</h3>
+                <p>899 kr.</p>
+                <a class="læs2" href="produktliste.html">Læs Mere</a>
+            </div>
 
-        <article>
-            <h2>Bold</h2>
-            <img src="https://kea-alt-del.dk/t7/images/jpg/640/1552.jpg" alt="bold">
-            <a href="produkt.html">Læs mere</a>
-        </article>
+            <div class="product">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="track pants">
+                <h3>Omen Athletes Track Pants</h3>
+                <p class="før_dkk">Før: 999.00 kr.</p>
+                <p>Nu: 349.65 kr.</p>
+                <p class="rabat">-65%</p>
+                <a class="læs" href="produktliste.html">Læs Mere</a>
+            </div>
 
-        <article>
-            <h2>Swimsuit</h2>
-            <img src="https://kea-alt-del.dk/t7/images/jpg/1000/1580.jpg" alt="swimsuit">
-            <a href="produkt.html">Læs mere</a>
-        </article>
+
+
+            <div class="product soldout">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1554.webp" alt="drikkedunk">
+                <h3>Blue Sipper</h3>
+                <p>249 kr.</p>
+                <p class="status">Sold Out</p>
+                <a class="læs3" href="produktliste.html">Læs Mere</a>
+            </div>
+
+            <div class="product soldout2">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp" alt="sko">
+                <h3>Cell Exsis Sneaker</h3>
+                <p class="før_dkk">Før: 3999 kr. kr.</p>
+                <p>Nu: 1519.62 kr.</p>
+                <p class="rabat2">-62%</p>
+                <p class="status2">Sold Out</p>
+                <a class="læs4" href="produktliste.html">Læs Mere</a>
+            </div>
+        </div>
     </main>
+
 </body>
 
 </html>
