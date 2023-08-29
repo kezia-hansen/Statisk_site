@@ -20,48 +20,21 @@
         <li><a href="produkt.html">Produkt</a></li>
     </ul>
 
-    <main>
-        <h2>Vores Produkter</h2>
+    <main class="product-grid">
 
-        <div class="product-grid">
-            <div class="product">
+        <template id="smallProductTemplate">
+            <article class="product">
                 <img src="https://kea-alt-del.dk/t7/images/webp/640/1533.webp" alt="t-shirt">
+                <p class="pris">899 kr.</p>
+                <p class="tag">T-shirts〡Man</p>
                 <h3>Cat Red T-shirt</h3>
-                <p>899 kr.</p>
-                <a class="læs2" href="produkt.html">Læs Mere</a>
-            </div>
+                <p class="rabat"></p>
+                <a href="produkt.html">Læs Mere</a>
+            </article>
+        </template>
 
-            <div class="product">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="track pants">
-                <h3>Omen Athletes Track Pants</h3>
-                <p class="før_dkk">Før: 999.00 kr.</p>
-                <p>Nu: 349.65 kr.</p>
-                <p class="rabat">-65%</p>
-                <a class="læs" href="produkt.html">Læs Mere</a>
-            </div>
-
-
-
-            <div class="product soldout">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1554.webp" alt="drikkedunk">
-                <h3>Blue Sipper</h3>
-                <p>249 kr.</p>
-                <p class="status">Sold Out</p>
-                <a class="læs3" href="produkt.html">Læs Mere</a>
-            </div>
-
-            <div class="product soldout2">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1548.webp" alt="sko">
-                <h3>Cell Exsis Sneaker</h3>
-                <p class="før_dkk">Før: 3999 kr. kr.</p>
-                <p>Nu: 1519.62 kr.</p>
-                <p class="rabat2">-62%</p>
-                <p class="status2">Sold Out</p>
-                <a class="læs4" href="produkt.html">Læs Mere</a>
-            </div>
-        </div>
     </main>
-
+    <script src="js/productlist.js"></script>
 </body>
 
 </html>

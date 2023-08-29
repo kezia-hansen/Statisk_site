@@ -35,9 +35,6 @@ h2 {
     margin-right: 10px;
 }
 
-.breadcrumb li:last-child {
-    font-weight: bold;
-}
 
 .breadcrumb a {
     display: inline-block;
@@ -121,7 +118,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    margin-right: 4%;
 }
 
 .product {
@@ -176,7 +172,7 @@ a {
     text-decoration: line-through;
 }
 
-.rabat {
+.rabat>p {
     display: inline-block;
     background-color: rgb(235, 44, 44);
     padding: 0.5rem;
@@ -185,18 +181,27 @@ a {
     left: 45%;
 }
 
-.soldout img {
+
+
+.soldOut img {
     opacity: 0.5;
 }
 
-.status {
-    color: gray;
-    background-color: rgb(238, 238, 238);
-    padding: 0.5rem;
-    position: absolute;
-    top: 37%;
-    right: 42.1%;
+article.soldOut {
+    position: relative;
 }
+
+article.soldOut::after {
+    content: "Udsolgt";
+    background-color: rgb(69, 69, 69);
+    color: white;
+    font-family: monospace;
+    padding: 1em;
+    position: absolute;
+    bottom: 88.3%;
+    left: 68.9%;
+}
+
 
 .rabat2 {
     display: inline-block;
@@ -207,19 +212,9 @@ a {
     left: 91%;
 }
 
-.soldout2 img {
-    opacity: 0.5;
-}
-
-.status2 {
+.tag {
     color: gray;
-    background-color: rgb(238, 238, 238);
-    padding: 0.5rem;
-    position: absolute;
-    top: 37%;
-    right: 19.1%;
 }
-
 
 /* PRODUKT */
 
