@@ -89,7 +89,7 @@ a {
 
 }
 
-.kat_box {
+.katboks {
     background-color: gray;
     margin: 5%;
     padding: 20%;
@@ -97,18 +97,18 @@ a {
 
 }
 
-.kat_box a {
+.katboks a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     ;
     text-decoration: none;
 }
 
-.kat_box:hover {
+.katboks:hover {
     background-color: rgb(235, 44, 44);
 }
 
-.kat_box:hover a {
+.katboks:hover a {
     color: white;
 }
 

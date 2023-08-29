@@ -1,5 +1,8 @@
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("liv");
+
 // Fetch the data from the provided API
-fetch("https://kea-alt-del.dk/t7/api/products?limit=50&start=10")
+fetch("https://kea-alt-del.dk/t7/api/products?limit=50&start=10&category=" + id)
   .then((res) => res.json()) // Parse the response as JSON
   .then(showProducts); // Call the showProduct function with the parsed data
 
