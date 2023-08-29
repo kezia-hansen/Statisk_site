@@ -172,35 +172,15 @@ a {
     text-decoration: line-through;
 }
 
-.rabat33 {
-    display: inline-block;
-    background-color: rgb(235, 44, 44);
-    padding: 0.5rem;
-    position: absolute;
-    bottom: 88.3%;
-    /* Adjust as needed */
-    left: 68.9%;
-    /* Adjust as needed */
-    font-size: 0.8rem;
-    color: white;
+.discounted {
+    display: none;
 }
 
-
-article.rabat {
-    position: relative;
+article.onSale .discounted {
+    display: block;
+    color: rgb(235, 44, 44);
+    font-weight: 700;
 }
-
-article.rabat::after {
-    content: "";
-    background-color: rgb(255, 0, 0);
-    color: white;
-    font-family: monospace;
-    padding: 1em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 
 
 .soldOut img {
@@ -218,19 +198,9 @@ article.soldOut::after {
     font-family: monospace;
     padding: 1em;
     position: absolute;
-    bottom: 88.3%;
+    bottom: 89.3%;
     left: 68.9%;
 }
-
-/*
-.rabat2 {
-    display: inline-block;
-    background-color: rgb(235, 44, 44);
-    padding: 0.5rem;
-    position: absolute;
-    bottom: 17.2%;
-    left: 91%;
-} */
 
 .tag {
     color: gray;
@@ -262,9 +232,12 @@ article.soldOut::after {
 }
 
 .product-info p {
-    margin: 7% 0;
     color: #fff;
     font-family: monospace;
+}
+
+.price {
+    font-size: 2rem;
 }
 
 .info-section {

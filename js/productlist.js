@@ -24,16 +24,19 @@ function showProduct(product) {
 
   copy.querySelector("p.tag").textContent = product.articletype;
 
+  copy.querySelector(".read-more").setAttribute("href", `produkt.html?id=${product.id}`);
+
   if (product.soldout) {
     // produktet er udsolgt
     copy.querySelector("article").classList.add("soldOut");
   }
 
   if (product.discount) {
-    // produktet er rabat
-    copy.querySelector("article").classList.add("rabat");
+    copy.querySelector("article.product").classList.add("onSale");
+    copy.querySelector("p.discounted").textContent = product.discount + "%";
   }
 
+  // img
   copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
 
   // appende
