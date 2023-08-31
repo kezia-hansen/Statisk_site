@@ -21,9 +21,9 @@ function showProduct(product) {
   const copy = template.cloneNode(true);
 
   // ændre indhold
-  copy.querySelector("h3").textContent = product.price;
+  copy.querySelector("p.pris").textContent = product.price + "DKK";
 
-  copy.querySelector("p.pris").textContent = product.productdisplayname;
+  copy.querySelector("h3").textContent = product.productdisplayname;
 
   copy.querySelector("p.tag").textContent = product.articletype;
 

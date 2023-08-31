@@ -23,6 +23,19 @@ h2 {
     color: white;
 }
 
+/* NAV - MENU */
+
+.kat_overskrift {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.kat_overskrift span {
+    color: rgb(235, 44, 44);
+}
+
 .breadcrumb {
     list-style: none;
     display: flex;
@@ -37,7 +50,7 @@ h2 {
 
 
 .breadcrumb a {
-    display: inline-block;
+    display: block;
     padding: 5px 10px;
     border: 1px solid rgb(235, 44, 44);
     border-radius: 4px;
@@ -70,19 +83,9 @@ a {
     font-size: 1.5rem;
 }
 
+
+
 /* KATEGORI */
-
-.kat_overskrift {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.kat_overskrift span {
-    color: rgb(235, 44, 44);
-}
-
 .grid_kat {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -141,35 +144,6 @@ a {
     color: #fff;
     text-decoration: underline;
     font-weight: 700;
-}
-
-.læs {
-    position: absolute;
-    bottom: 5%;
-    left: 13%;
-}
-
-.læs2 {
-    position: absolute;
-    bottom: 5%;
-    left: 36%;
-}
-
-.læs3 {
-    position: absolute;
-    bottom: 5%;
-    left: 59%;
-}
-
-.læs4 {
-    position: absolute;
-    bottom: 5%;
-    left: 82%;
-}
-
-.før_dkk {
-    color: rgb(235, 44, 44);
-    text-decoration: line-through;
 }
 
 .discounted {
@@ -234,6 +208,14 @@ article.soldOut::after {
 .product-info p {
     color: #fff;
     font-family: monospace;
+}
+
+.discount {
+    background-color: rgb(235, 44, 44);
+    padding: 0 2%;
+    margin-top: -3%;
+    position: relative;
+    margin-bottom: 10%;
 }
 
 .price {
